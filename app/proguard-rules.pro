@@ -19,8 +19,10 @@
 }
 
 -keep class sun.misc.Unsafe { *; }
--keep class sasd97.java_blog.xyz.yandexweather.data.models.** { *; }
+-keep class suhockii.dev.weather.data.models.** { *; }
 
 -keep class * implements com.google.gson.TypeAdapterFactory
 -keep class * implements com.google.gson.JsonSerializer
 -keep class * implements com.google.gson.JsonDeserializer
+-keep class android.support.v7.widget.SearchView { *; }
+-ignorewarnings
